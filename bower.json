@@ -1,0 +1,26 @@
+{
+  "name": "spass",
+  "authors": [
+    "zero <me@zerox.me>"
+  ],
+  "description": "automated paddings and margins",
+  "main": "lib/spass.scss",
+  "moduleType": [],
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "space",
+    "spacing",
+    "spass"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zeroxme/spass/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
