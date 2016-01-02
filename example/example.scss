@@ -1,0 +1,17 @@
+/*!
+ * Example for how to use Spass
+ */
+
+@import "../lib/spass";
+
+// choose your base spacing that matches your design
+$spass-base: 4px;
+
+// build your own list of paddings and margins
+// array structure: property className variable/value
+$spass-array:   margin m-none 0, margin m-xs $spass-base, margin m-sm $spass-sm, margin m-md $spass-lg,
+                    margin-top mt-none 0, margin-top mt-md $spass-md, margin-top mt-lg $spass-lg, margin-top mt-lg $spass-xlg,
+                    padding p-none 0, padding p-sm $spass-sm, padding p-lg $spass-lg;
+
+// create spacing classes
+@include spass-creator();
