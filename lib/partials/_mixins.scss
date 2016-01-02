@@ -1,0 +1,11 @@
+// Spacing box model
+@mixin spass-creator($property, $name, $value) {
+  .#{$name} { #{$property}: $value;}
+}
+
+// Parsing list
+@mixin spass-creator {
+  @each $spass-item in $spass-array {
+    .#{nth($spass-item, 2)} { #{nth($spass-item, 1)}: nth($spass-item, 3);}
+  }
+}

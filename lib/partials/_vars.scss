@@ -1,0 +1,9 @@
+$spass-base:          6px;
+$spass-sm:       $spass-base * 2;   // 6 * 2 = 12
+$spass-md:       $spass-base * 3;   // 6 * 3 = 18
+$spass-lg:       $spass-base * 4;   // 6 * 4 = 24
+$spass-xlg:      $spass-base * 6;   // 6 * 6 = 36
+$spass-xxlg:     $spass-base * 8;   // 6 * 8 = 48
+$spass-xxxlg:    $spass-base * 16;  // 6 * 16 = 96
+
+$spass-array:   margin m-none 0, margin m-xs $spass-base, margin m-sm $spass-sm, margin m-md $spass-md;
