@@ -1,6 +1,8 @@
 # Spass library
 automated paddings and margins via Scss/Sass
 
+![](https://raw.githubusercontent.com/zeroxme/spass/master/spass.png)
+
 Advantages:
 - Choose your base spacing that matches your design.
 - Build your own list of paddings and margins.
